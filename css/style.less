@@ -1,0 +1,565 @@
+html{
+	background-color: #DCDCDA;
+	overflow:scroll;
+	white-space:nowrap;
+	width-min: 750px;
+}
+
+.no-scroll
+{
+overflow: hidden;
+}
+
+body{
+	margin:0;
+	width: 100%;
+	background-color: #DCDCDA;
+}
+#scroll-tip{
+	position: fixed;
+	top: 90%;
+	right: 6%;
+	display: none;
+}
+
+#pie
+{
+	position: relative;
+	margin-left: 5px;
+	top: 6%;
+}
+
+#trepied{
+height: 700px;
+width: 542px;
+  background: url(../img/Trepied.png) no-repeat;
+background-size: 540px 630px;
+}
+
+#my_menu
+{
+}
+
+.desc{
+	font-family: Amatic-Bold;
+	font-size: 64px;
+	text-align: center;
+	width: 340px;
+	position: fixed;
+	right: 10%;
+
+white-space:nowrap;}
+
+.legend{
+	font-size: 32px;
+	text-align: center;
+}
+
+.mini-desc{
+		font-family: Amatic-Bold;
+		text-align: center;
+		font-size: 32px;
+}
+
+.front{
+	z-index: 9999999999;
+}
+
+.fixed{
+	position: fixed;
+	left: 45%;
+	top: 10px;
+}
+
+#mix-desc{
+	font-family:Amatic-Bold;
+
+	width: 25%;
+	margin-left: 50px;
+	height: 50vh;
+	position: absolute;
+	font-size: 32px;
+	padding-top: 20px;
+}
+
+.title{
+display: none;
+}
+
+.home{
+	padding-top: 170px;
+	}
+
+h3{
+font-family: Gasalt-Black;
+font-size:16px;	
+}
+
+.swing
+{
+	    -moz-animation: bounce 3s;
+    -webkit-animation: bounce 3s;
+    animation: bounce 3s;
+}
+
+#header
+{
+	padding-left: 30px;
+
+	height: 20vh;
+	width: 100%;
+	position:  fixed;
+	top: 0px;
+	background-color: rgba(255, 255, 255, 0.8);
+z-index: 9999999;
+display: none;
+	width-min: 750px;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+hr{
+	width: 90%;
+}
+
+#dev
+{
+	position: absolute;
+	left: 85%;
+}
+
+.handwritten{
+	font-family: Amatic-Bold;
+}
+
+.page{
+  height: 100vh;
+  display:none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#logo{
+	height: 75px;
+	margin-right: 100px;
+	position: fixed;
+}
+
+span {
+	padding-top: 20px;
+  display: inline-block;
+  font-family: Lato-Heavy;
+}
+
+												/* menu */
+
+
+.typo {
+  background: url(../img/iPhone/optical.png) 50% 0 no-repeat fixed;
+}
+
+#blurred-text {
+  background: url(../iPhone/img/optical-blur.png) 0 no-repeat fixed;
+  background-position: center;
+}
+#text {
+  background-position: center;
+}
+#iphone {
+  background: url(../img/iPhone/iphone.png) no-repeat top center;
+  height: 100vh;
+  width: 100%;
+  background-size: 100vh auto;
+  z-index: 100;
+
+}
+#blurred-text2 {
+  background: url(../img/iPhone/optical-blur.png) 0 no-repeat fixed;
+  background-position: center;
+  margin-top: -53.5vh;
+  background-color: #DCDCDA;
+;
+}
+
+
+
+
+
+
+
+#social-closet {
+  overflow: hidden;
+  background-image: url('../img/Social-Closet/barre.png');
+      background-repeat: repeat-x;
+
+}
+.layer {
+  width: 200px;
+  padding-top: 260px;
+  height: 200px;
+  width: 260px;
+  z-index: 100;
+}
+.hanger {
+  height: 200px;
+  width: 260px;
+}
+
+#h_lkn {
+  margin-left: 70px;
+}
+#h_igr {
+  margin-left: 400px;
+}
+#h_fb {
+  margin-left: 700px;
+}
+#h_tblr {
+  margin-left: 1300px;
+}
+#h_sdc {
+  margin-left: 1000px;
+}
+#h_mail {
+  margin-left: 1600px;
+}
+
+.preloader {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: solid 3px;
+  border-color: #555555 transparent;
+  border-radius: 10%;
+  z-index:999999;
+  -webkit-animation: rota 1s ease-in-out infinite;
+  -moz-animation: rota 1s ease-in-out infinite;
+  -ms-animation: rota 1s ease-in-out infinite;
+  -o-animation: rota 1s ease-in-out infinite;
+  animation: rota 1s ease-in-out infinite;
+  height: 100vh;
+}
+@-webkit-keyframes rota {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes rota {
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes rota {
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+@-o-keyframes rota {
+  to {
+    -o-transform: rotate(360deg);
+  }
+}
+@keyframes rota {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+												/* PROGRESS BAR */
+
+
+progress,          /* All HTML5 progress enabled browsers */
+progress[role]     /* polyfill */
+{
+display: none;
+	/* Turns off styling - not usually needed, but good to know. */
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+
+	/* gets rid of default border in Firefox and Opera. */ 
+	border: none;
+
+	/* Needs to be in here for Safari polyfill so background images work as expected. */
+	background-size: auto;
+
+margin-top: 3.2vh;
+
+}
+
+/* Polyfill */
+progress[role]:after {
+	background-image: blue; /* removes default background from polyfill */
+}
+
+/* Ensure fallback text doesn't appear in polyfill */
+progress[role] strong {
+}
+progress {  
+opacity: 0.5;
+width: 100%;
+position: fixed;
+top: 130px;
+height: 2px;}  
+
+
+
+/* PROGRESS BAR */
+progress {
+    color: red;
+}
+
+/* Firefox */
+progress::-moz-progress-bar { 
+    background: red;	
+}
+
+/* Chrome */
+progress::-webkit-progress-value {
+    background: red;
+}
+
+/* Polyfill */
+progress[aria-valuenow]:before  {
+    background: red;
+}
+
+progress,                          /* Firefox  */ 
+progress[role][aria-valuenow] {    /* Polyfill */
+   background: white !important; /* !important is needed by the polyfill */
+}
+
+/* Chrome */
+progress::-webkit-progress-bar {
+    background: rgba(255, 255, 254, 1);
+}
+
+
+
+
+														/*     SLIDERS         */
+
+
+
+#sliders{
+	background-color: black;
+	height: 500px;
+	width: 500px;
+	background: url('../img/Slider/bg.jpg');
+	    border-radius: 25px;
+    box-shadow: 10px 10px 5px grey;
+    overflow: hidden;
+}
+
+.handle{
+	position: relative;
+	top: 98%;
+	height: 25px;
+	width: 25px;
+	background: url('../img/Slider/handle.png');
+	margin-left: -7px;
+	background-size: 50 50;
+	z-index : 0;
+
+}
+
+.slider{
+	height: 400px;
+	width: 10px;
+	background: url('../img/Slider/bg-track.png');
+	    border-radius: 25px;
+	    margin-left: 75px;
+	    float: left;
+	    margin-top: 20px;
+
+background: #ffffff;
+background: -moz-linear-gradient(left,  #ffffff 0%, #131313 45%, #ffffff 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(45%,#131313), color-stop(100%,#ffffff));
+background: -webkit-linear-gradient(left,  #ffffff 0%,#131313 45%,#ffffff 100%);
+background: -o-linear-gradient(left,  #ffffff 0%,#131313 45%,#ffffff 100%);
+background: -ms-linear-gradient(left,  #ffffff 0%,#131313 45%,#ffffff 100%);
+background: linear-gradient(to right,  #ffffff 0%,#131313 45%,#ffffff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
+
+
+}
+
+.label{
+	position: relative;
+	top: 100%;
+	font-size: 18px;
+	height: 25px;
+	background: rgb(255, 255, 255, 0.1);
+	width: 70px;
+	margin-left: -30px;
+	text-align: center;
+	font-family: Amatic-Bold;
+	    border-radius: 5px;
+}
+
+#s_code{
+	top: 4%;
+}
+
+#s_photo{
+	top: 33%;
+}
+
+#s_music{
+	top: 15%;
+}
+
+#s_coffee{
+	top: 2%;
+}
+
+#s_bed{
+	top: 69%;
+}
+
+
+
+
+												/* COLOR */
+
+.fade{
+	color: black;
+
+}
+
+.light-grey{
+	color: ;
+}
+
+.dark-grey{
+	color: #717473;
+}
+
+.work-field{
+	height : 70vh;
+	width: 100%;
+}
+
+#pie
+{
+}
+
+.work.animated { 
+    -moz-animation: bounce 3s;
+    -webkit-animation: bounce 3s;
+    animation: bounce 3s;
+}
+
+
+@-webkit-keyframes bounce {
+ 0%{-webkit-transform:rotate(0deg)}
+    25%{-webkit-transform:rotate(5deg)}
+    75%{-webkit-transform:rotate(-5deg)}
+    100%{-webkit-transform:rotate(0deg)}
+}
+
+
+.work{
+	float:left;
+	text-align: center;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+}
+
+.animated { 
+    -moz-animation: bounce;
+    -webkit-animation: bounce 1s;
+    animation: bounce 1s;
+}
+
+
+.work-label{
+	font-family: Amatic-Bold;
+	display: block;
+	margin-bottom: 5px;
+	font-size: 32px;
+}
+
+.work-min{
+	height: 70vh;
+	width: auto;
+	float: left;
+}
+
+ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+
+li{
+	float: left;
+}
+
+li.layer{
+ float:left;
+ margin-right: 18vh;
+ }
+
+.load
+{
+	display: none;
+}
+
+.hidden{
+	opacity: 0;
+}
+
+.visible
+{
+	opacity: 1;
+}
+
+#profile-picture
+{
+	background: url('../img/profile-rounded.png') no-repeat;	
+	background-size: 165px auto;
+	height: 165px;
+	width: 165px;
+	display: none;
+}
+
+.valerian{
+	position: absolute;
+	top: 20vh;
+	left: 30px;
+	display: none;
+}
+
+.menu{
+margin-top: 0px;
+ display:block;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ border:none;
+ font-family: Gasalt-Black;
+font-size: 24px;
+	width-min: 750px;
+	width: 20%;
+}
+
+@font-face {
+    font-family: Gasalt-Black;
+    src: url('../font/Gasalt-Black.ttf');
+}
+@font-face {
+    font-family: Lato-Heavy;
+    src: url('../font/Lato-Heavy.ttf');
+}
+@font-face {
+    font-family: Amatic-Bold;
+    src: url('../font/Amatic-Bold.ttf');
+}

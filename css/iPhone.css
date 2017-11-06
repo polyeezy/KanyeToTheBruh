@@ -1,0 +1,28 @@
+
+.typo {
+  background: url(../img/optical.png) 50% 0 no-repeat fixed;
+}
+
+#blurred-text {
+  background: url(../img/optical-blur.png) 0 no-repeat fixed;
+  background-position: center;
+}
+#text {
+  background-position: center;
+}
+#iphone {
+  background: url(../img/iphone.png) no-repeat top center;
+  height: 100vh;
+  width: 100%;
+  background-size: 100vh auto;
+  z-index: 100;
+}
+#blurred-text2 {
+  background: url(../img/optical-blur.png) 0 no-repeat fixed;
+  background-position: center;
+  margin-top: -53.5vh;
+  background-color: white;
+}
+
+
+
